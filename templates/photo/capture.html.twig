@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="container mt-5">
+        {{ form_start(photoForm) }}
+        {{ form_widget(photoForm) }}
+
+        <button> Send </button>
+
+        {{  form_end(photoForm) }}
+    </div>
+
+{% endblock %}
